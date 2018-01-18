@@ -14,12 +14,19 @@ class MainCtrl extends Controller
      */
     protected $session = null;
 
+    /**
+     *
+     * @var object
+     */
+    public $user = null;
+
     public function __init()
     {
 
         $this->session = new Session();
+        $this->user = $this->session->get(Session::USER_AUTH);
         $this->view->set('user/template');
-        $this->view['user'] = $this->session->get(Session::USER_AUTH);
+        $this->view['user'] = $this->user;
         $this->view['title'] = 'Dashboard';
         $this->view['category'] = 'Home';
         $this->view['message'] = null;

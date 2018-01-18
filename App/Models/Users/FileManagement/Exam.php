@@ -14,7 +14,7 @@ class Exam extends File
      */
     public static function tableName()
     {
-        return 'exam';
+        return 'exams';
     }
 
     /**

@@ -1,0 +1,10 @@
+{
+    "require": {
+        "phroute/phroute": "^2.1",
+        "doctrine/orm": "2.5",
+        "symfony/http-foundation": "3.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "3.4",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

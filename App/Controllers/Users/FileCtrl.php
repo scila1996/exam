@@ -3,7 +3,7 @@
 namespace App\Controllers\Users;
 
 use App\Models\Users\FileManagement\Manage;
-use App\Models\Users\FileManagement\CKEditor;
+use App\Models\Users\Plugins\CKEditor;
 use PDOException;
 
 class FileCtrl extends MainCtrl
@@ -159,7 +159,6 @@ class FileCtrl extends MainCtrl
             {
 
                 case 'edit':
-                    //return 123;
                     if ($this->request->isPost())
                     {
                         if ($this->model->updateExam($id))

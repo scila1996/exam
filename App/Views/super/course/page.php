@@ -2,6 +2,6 @@
 <hr />
 {{ msg }}
 <div class="form-group">
-	<a href="{{add}}" class="btn btn-primary btn-xs"> Thêm mới </a>
+    <a href="{{add}}" class="btn btn-primary btn-xs"> Thêm mới </a>
 </div>
 {{ table }}

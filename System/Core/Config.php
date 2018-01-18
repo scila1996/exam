@@ -7,6 +7,18 @@ class Config
 
     /**
      *
+     * @var boolean
+     */
+    public static $debug = true;
+
+    /**
+     *
+     * @var string
+     */
+    public static $timezone = 'Asia/Ho_Chi_Minh';
+
+    /**
+     *
      * @var \System\Libraries\Router\RouteCollector
      */
     public static $route = null;

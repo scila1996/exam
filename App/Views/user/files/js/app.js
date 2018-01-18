@@ -19,7 +19,7 @@ $(document).ready(function () {
         var file = function ()
         {
             return `
-            <li><a href="/user/exam/${oitem.id}"><span class="fa fa-cog"></span> Quản lý </a></li>
+            <li><a href="/user/exam/${oitem.id}/question"><span class="fa fa-cog"></span> Quản lý </a></li>
             <li><a href="/user/exam/${oitem.id}/edit"><span class="fa fa-pencil"></span> Chỉnh sửa </a></li>
             <li><a href="/user/exam/${oitem.id}/share"><span class="fa fa-share"></span> Chia sẻ </a></li>
             <li><a href="/user/exam/${oitem.id}/copy"><span class="fa fa-copy"></span> Sao chép </a></li>

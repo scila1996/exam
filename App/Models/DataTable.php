@@ -13,7 +13,7 @@ class DataTable extends Model
      */
     public static function tableName()
     {
-        throw new ErrorException('table name is not define');
+        throw new ErrorException('table name is must be define');
     }
 
 }

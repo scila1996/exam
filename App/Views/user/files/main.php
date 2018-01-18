@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-xs-12">
             <div id="controls" class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Tùy chọn &nbsp;<span class="caret"></span></button>
+                <button class="btn btn-xs btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Tùy chọn &nbsp;<span class="caret"></span></button>
                 <ul class="dropdown-menu">
                 </ul>
             </div>

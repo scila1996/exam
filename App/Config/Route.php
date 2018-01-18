@@ -34,5 +34,10 @@ Config::$route->group(['before' => 'login'], function(RouteCollector $routers) {
     // Exam manage
     $routers->any('/user/exam/{id:\d+}/{action:edit|delete}', ['Users\\FileCtrl', 'exam']);
 
+    // Question manage
+    $routers->get('/user/exam/{exam_id:\d+}/question', ['Users\\QuizCtrl']);
+    $routers->any('/user/exam/{exam_id:\d+}/question/create/{type}', ['Users\\QuizCtrl', 'create']);
+    $routers->any('/user/exam/{exam_id:\d+}/question/{id:\d+}/{action:edit|delete}', ['Users\\QuizCtrl']);
+
     $routers->get('/user/logout', ['Users\\LoginCtrl', 'logout']);
 });

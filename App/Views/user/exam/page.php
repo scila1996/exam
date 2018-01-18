@@ -5,12 +5,12 @@
 <script src="/extension/owner/js/form-table.js"></script>
 {{ msg }}
 <div>
-	<form class="require-checkbox-from-table" method="post">
-		<div class="form-group">
-			<a href="{{add}}" class="btn btn-primary btn-xs"><span class="fa fa-plus"></span> Thêm mới </a>
-			<button type="submit" class="btn btn-success btn-xs" name="action" value="view_answer" formtarget="_blank"><span class="fa fa-book"></span> Xem đáp án </button>
-			<button type="submit" class="btn btn-warning btn-xs" name="delete" value="1"><span class="fa fa-remove"></span> Xóa </button>
-		</div>
-		{{ table }}
-	</form>
+    <form class="require-checkbox-from-table" method="post">
+        <div class="form-group">
+            <a href="{{add}}" class="btn btn-primary btn-xs"><span class="fa fa-plus"></span> Thêm mới </a>
+            <button type="submit" class="btn btn-success btn-xs" name="action" value="view_answer" formtarget="_blank"><span class="fa fa-book"></span> Xem đáp án </button>
+            <button type="submit" class="btn btn-warning btn-xs" name="delete" value="1"><span class="fa fa-remove"></span> Xóa </button>
+        </div>
+        {{ table }}
+    </form>
 </div>
